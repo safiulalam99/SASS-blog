@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  height: 75px;
+  height: 85px;
   background-color: #3e434e;
   line-height: 75px;
   position: fixed;
@@ -39,15 +39,17 @@ nav ul li {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   margin-left: 20px;
 }
 
 nav ul li:hover {
   color: #35af27;
+  background-color: #000;
 }
 
 * {
+  font-family: Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -57,9 +59,59 @@ h2 {
   left: -10px;
 }
 
+.button {
+  background-color: #989caf;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #35af27;
+}
+
+.example {
+  color: white;
+}
+
+.article1 {
+  padding: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  border-color: grey;
+}
+
+.article2 {
+  padding: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  border-color: black;
+}
+
+.article3 {
+  padding: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  border-color: brown;
+}
+
+.contact {
+  color: black;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 section {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background-color: #3b414e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,10 +126,11 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0.2px;
 }
 
 section h2 {
-  color: white;
+  color: black;
   font-size: 50px;
   font-weight: bold;
   margin-top: 20px;

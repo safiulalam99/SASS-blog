@@ -9,7 +9,7 @@
   </head>
 
   <body background="/assets/images/img-2.jpg">
-
+    <header>
     <nav>
       <div class="logo"><img src="./assets/images/header.svg" alt=""></div>
       <ul class="navbar">
@@ -20,39 +20,51 @@
     </ul>
   
     </nav>
-     
+  </header>
 
-    <section style="background-color: antiquewhite;">
-        <article >
+  <main>
+    
+    <!-- Do this instead -->
+<section class="example" >
+  <article class="article0">
+  <h2>Headings should always come first</h2>
+  <p>Place regular content after the heading</p>
+</article>
+</section>
+
+  <section style="background-color: antiquewhite;">
+        <article class="article1" >
             <h2 aria-label="how to create a nice webpage">how to create a nice webpage</h2>
             <p> Keep the design simple, fresh and unique. As the first thing potential customers see when they visit your website, 
-              the homepage is typically the most important part of a small business’s Web design.</p>
-              <button class="button" aria-label="Read more"  onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>
+              the homepage is typically the most important part of a small businesss Web design.</p>
+              <button class="button" aria-label="Read more"  onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>read more </button>
 
         </article>
     </section>
 
-    <section style="background-color: antiquewhite;">
-      <article>
-          <h2 aria-label="how to create a nice webpage">how to create a nice webpage</h2>
+    <section class="ex" style="background-color: antiquewhite;">
+      <article class="article2">
+          <h2 aria-label="how to create a nice webpage">How to create a nice webpage</h2>
           <p> Web design is the process of planning, conceptualizing, and arranging content online. Today, designing a website goes 
             beyond aesthetics to include the websites overall functionality. Web design also includes web apps, mobile apps, and user interface design. 
 
           </p>
-            <input  aria-label="Read more" type=button onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>
+            <button class="button" aria-label="Read more" type=button onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>read more </button>
       </article>
   </section>
 
   <section style="background-color: antiquewhite;" >
-    <article>
+    <article class="article3">
         <h2 aria-label="What is Web Design?">What is Web Design?</h2>
         <p> Keep the design simple, fresh and unique. As the first thing potential customers see when they visit your website, 
           the homepage is typically the most important part of a small businesss Web design.</p>
-          <input  aria-label="Read more" type=button onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>
+          <button class="button" aria-label="Read more" type=button onClick="location.href='https://www.plus2net.com/html_tutorial/button-linking.php'" value='Read more'>read more </button>
     </article>
 </section>
 
-  <section >
+</main>
+
+  <section class="contact" >
     <h2 aria-label="Contact us" >Contact us</h2>
     <form action="#">
       <label for="name-form">Name: </label><br>
