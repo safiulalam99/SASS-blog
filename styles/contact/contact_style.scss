@@ -1,6 +1,32 @@
-@import '../navbar';
 @import '../variables';
+@import '../buttons';
 
 *{
     font-family: $font-stack;
+    background-color: $sectionColor;
+}
+
+.main_page{
+    float: left;
+}
+.inp{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn{
+    @include button-design;
+}
+
+.subject{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

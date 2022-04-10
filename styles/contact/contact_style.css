@@ -1,60 +1,43 @@
-nav {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 100%;
-  height: 85px;
-  background-color: white;
-  line-height: 75px;
-  position: fixed;
-  padding-right: 30;
-  z-index: 1;
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #edeef4;
 }
 
-nav .logo {
+.main_page {
   float: left;
-  font-size: 30px;
-  font-weight: bold;
-  color: #473c3c;
-  margin-top: 10px;
 }
 
-nav .logo img {
-  height: 40px;
-  width: 60px;
-  padding-left: 15px;
-}
-
-nav a {
-  color: #356de5;
-  font-size: 20px;
-}
-
-nav a:hover {
-  color: white;
-}
-
-nav ul {
-  float: right;
-}
-
-nav ul li {
+.inp {
+  padding: 12px 20px;
   display: inline-block;
-  list-style: none;
-  margin-left: 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 5px;
-  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-nav ul li:hover {
-  color: white;
+.btn {
+  background-color: #989caf;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 2px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
   background-color: #356de5;
 }
 
-* {
-  font-family: "Roboto", sans-serif;
+.subject {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=contact_style.css.map */
