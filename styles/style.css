@@ -1,7 +1,9 @@
 nav {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   width: 100%;
   height: 85px;
-  background-color: #3e434e;
+  background-color: white;
   line-height: 75px;
   position: fixed;
   padding-right: 30;
@@ -23,7 +25,7 @@ nav .logo img {
 }
 
 nav a {
-  color: white;
+  color: #356de5;
   font-size: 20px;
 }
 
@@ -49,7 +51,7 @@ nav ul li:hover {
 }
 
 * {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -62,11 +64,10 @@ h2 {
 .button {
   background-color: #989caf;
   color: black;
-  padding: 15px 30px;
-  border-radius: 5px;
+  padding: 5px 20px;
+  border-radius: 2px;
   border: none;
   font-size: 20px;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -79,40 +80,68 @@ h2 {
 }
 
 .article1 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 30px;
   border-style: solid;
   border-radius: 20px;
   border-width: 0.5px;
-  border-color: grey;
+  border-color: #e5e7ee;
+}
+
+.article1 p {
+  color: black;
 }
 
 .article2 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 30px;
   border-style: solid;
   border-radius: 20px;
   border-width: 0.5px;
-  border-color: black;
+  border-color: #e5e7ee;
+}
+
+.article2 p {
+  color: black;
 }
 
 .article3 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 30px;
   border-style: solid;
   border-radius: 20px;
   border-width: 0.5px;
-  border-color: brown;
+  border-color: #e5e7ee;
+}
+
+.article3 p {
+  color: black;
 }
 
 .contact {
   color: black;
   border: none;
   font-size: 20px;
-  font-weight: bold;
+}
+
+.art1 {
+  background-color: #edeef4;
+}
+
+.art2 {
+  background-color: #edeef4;
+}
+
+.art3 {
+  background-color: #edeef4;
 }
 
 section {
   width: 100%;
-  height: 60vh;
-  background-color: #3b414e;
+  background-color: #356de5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +161,6 @@ section {
 section h2 {
   color: black;
   font-size: 50px;
-  font-weight: bold;
   margin-top: 20px;
 }
 
@@ -140,6 +168,78 @@ section p {
   color: #af6f6f;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 20px;
+}
+
+.example {
+  width: 100%;
+  height: 400px;
+  background-color: #325ebe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.2px;
+}
+
+.example h2 {
+  color: white;
+}
+
+.example p {
+  color: white;
+}
+
+.contact {
+  padding-top: 150px;
+}
+
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: red;
+  color: white;
+  text-align: right;
+}
+
+footer section {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer section h2 {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  color: white;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+footer section p {
+  color: white;
+  font-size: 20px;
   margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

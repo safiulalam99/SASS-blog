@@ -1,14 +1,20 @@
 $primarybtn : rgb(152, 156, 175);
+$primcolor: rgb(53, 109, 229);
 $secondarybtn : rgb(53, 175, 39);
+$sectionColor:rgb(237, 238, 244);
 $navTextColor : white;
-$font-stack: Helvetica, sans-serif;
-
+$bordercolor: rgb(229, 231, 238);
+$font-stack: 'Roboto', sans-serif;
 @mixin article-border($color){
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 30px;
   border-style: solid;
   border-radius: 20px;
   border-width: 0.5px;
   border-color: $color;
+  p{
+      color: black;
+  }
 } 
 
 @mixin button-design {
