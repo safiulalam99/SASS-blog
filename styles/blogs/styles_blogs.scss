@@ -1,0 +1,34 @@
+
+@import '../navbar';
+@import '../variables';
+@import '../buttons';
+
+*{
+    font-family: $font-stack;  
+    margin: 0;
+    
+}
+.main{
+  padding-top: 58px;
+  margin: 0;
+}
+  section{   
+    background-color: $sectionColor;
+    padding: 30px; 
+}
+
+.btn{
+  @include button-design;
+}
+
+.art1{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.art2{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}

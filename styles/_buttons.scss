@@ -1,0 +1,12 @@
+@mixin button-design {
+    background-color: $primarybtn;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover{
+      background-color: $secondarybtn;
+    }
+}

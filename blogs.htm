@@ -2,37 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/blogs/styles_blogs.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
 </head>
 <body style="background-color:antiquewhite;">
-    <header>
-        <h1 aria-label="Latest Stories">Latest Stories</h1>
-    </header>
-
+        <header>
+            <nav>
+                
+              <div class="logo"><img src="./assets/images/header.svg" alt=""></div>
+              
+              <ul class="navbar">
+             <li> <a href="index.html" aria-label="Home">Home</a> </li>
+             <li><a href="blogs.htm" aria-label="Blogs">Blogs</a> </li>
+              <li><a href="about_me.html"aria-label="about me">About me</a></li>
+              <li><a href="contact.html"aria-label="contact">Contact</a></li>
+            </ul>
+            </nav>
+          </header>
+<div class="main">
     <section>
-        <article style="background-color:azure;">
-            <img src="/assets/images/ethereum-eth.svg" alt="Crypto picture" height="200px" width="200px">
+        <article class="art1" >
+            <img src="/assets/images/header.svg" alt="Crypto picture" height="200px" width="200px">
         <h2 aria-label= "How Does Cryptocurrency Work?">How Does Cryptocurrency Work?</h2>
         <p>A cryptocurrency is a medium of exchange that is digital, encrypted and decentralized. 
             Unlike the U.S. Dollar or the Euro, there is no central authority that manages and maintains the value of a cryptocurrency. 
             Instead, these tasks are broadly distributed among a cryptocurrency’s users via the internet.</p>
-            <input type=button onClick="parent.location='https://www.forbes.com/advisor/investing/what-is-cryptocurrency/'"  value='Read more'>   
+            <button class="btn" onClick="parent.location='https://www.forbes.com/advisor/investing/what-is-cryptocurrency/'" >Read more</button>
         
         </article>
 
-        <article  style="background-color:azure;">
+        <article class="art2"  >
             <img src="/assets/images/header.svg" alt="Crypto picture" height="200px" width="200px">
             <h2 aria-label= "Forex Trading: A Beginner’s Guide">Forex Trading: A Beginner’s Guide</h2>
             <p>Forex is a portmanteau of foreign currency and exchange. Foreign exchange is the process of changing one currency into another for 
                 a variety of reasons, usually for commerce, trading, or tourism. According to a 2019 triennial report from the Bank for International 
                 Settlements (a global bank for national central banks), the daily trading volume for forex reached $6.6 trillion in April 2019.</p>
-            <input type=button onClick="parent.location='https://www.investopedia.com/articles/forex/11/why-trade-forex.asp'"  value='Read more'>   
-
+            <button class="btn" onClick="parent.location='https://www.investopedia.com/articles/forex/11/why-trade-forex.asp'">Read more</button>   
         </article>
     </section> <br>
-
+</div>
     <footer>
          <p style="text-align: center;">Thank you for visiting</p>
     </footer>
