@@ -5,6 +5,7 @@ $sectionColor:rgb(237, 238, 244);
 $navTextColor : white;
 $bordercolor: rgb(229, 231, 238);
 $font-stack: 'Roboto', sans-serif;
+$header-image: url("../assets/images/img-1.jpg");
 
 @mixin article-border($color){
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
