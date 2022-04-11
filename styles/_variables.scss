@@ -24,3 +24,30 @@ $header-image: url("../assets/images/img-1.jpg");
     width: 60%;
     padding: 10px;
 }
+
+@mixin article-hover {
+  &:hover{
+    cursor: pointer;
+    background-color: $bordercolor;
+    transform: scale(1.1); 
+  }
+}
+
+@mixin input-bar{
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+
+@mixin input-message-box {
+  width:100% ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}

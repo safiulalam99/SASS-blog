@@ -59,12 +59,6 @@ nav ul li:hover {
   margin: 0;
 }
 
-h2 {
-  position: relative;
-  top: -10px;
-  left: -10px;
-}
-
 .button {
   background-color: #989caf;
   color: black;
@@ -100,6 +94,13 @@ h2 {
   color: black;
 }
 
+.article1:hover {
+  cursor: pointer;
+  background-color: #e5e7ee;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .article2 {
   margin: auto;
   width: 60%;
@@ -117,6 +118,13 @@ h2 {
   color: black;
 }
 
+.article2:hover {
+  cursor: pointer;
+  background-color: #e5e7ee;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .article3 {
   margin: auto;
   width: 60%;
@@ -132,6 +140,13 @@ h2 {
 
 .article3 p {
   color: black;
+}
+
+.article3:hover {
+  cursor: pointer;
+  background-color: #e5e7ee;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .art1 {
@@ -177,7 +192,7 @@ h2 {
 
 .article0 {
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #356de5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +207,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0.2px;
+  padding: 045px;
 }
 
 .article0 h2 {
@@ -234,5 +249,25 @@ h2 {
   color: white;
   font-size: 20px;
   margin-top: 20px;
+}
+
+.input-box {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input-box-message {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */
